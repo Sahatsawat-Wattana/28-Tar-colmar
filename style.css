@@ -255,6 +255,69 @@ ul {
   background-color: rgb(200, 200, 200);
 }
 
+.thesis-desktop {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px 24px;
+  gap: 32px;
+  align-items: center;
+}
+.thesis-desktop-content {
+  display: flex;
+  gap: 24px;
+}
+.thesis-desktop-content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 0 0 60%;
+}
+.thesis-desktop-content-left-video-wrapper {
+  width: 100%;
+}
+.thesis-desktop-content-left-video-wrapper video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.thesis-desktop-content-left-content h3 {
+  padding-bottom: 8px;
+}
+.thesis-desktop-content-right {
+  display: flex;
+  flex-direction: column;
+}
+.thesis-desktop-content-right-card {
+  display: flex;
+  align-items: center;
+}
+.thesis-desktop-content-right-card-img-wrapper {
+  flex: 0 0 35%;
+  padding: 16px;
+}
+.thesis-desktop-content-right-card-img-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.thesis-desktop-content-right-card-content p {
+  padding-top: 8px;
+}
+
+.thesis-mobile {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  gap: 16px;
+  align-items: center;
+}
+.thesis-mobile-video-wrapper video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .footer-desktop {
   display: flex;
   justify-content: space-between;
