@@ -50,12 +50,31 @@ ul {
   align-items: center;
   height: 64px;
 }
+.footer-desktop {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 24px;
+}
+.footer-desktop-right ul {
+  display: flex;
+  gap: 16px;
+}
+.footer-mobile {
+  display: block;
+  margin: 16px 24px;
+}
 
 @media only screen and (min-width: 576px) {
   .nav-desktop {
     display: flex;
   }
   .nav-mobile {
+    display: none;
+  }
+  .footer-desktop {
+    display: flex;
+  }
+  .footer-mobile {
     display: none;
   }
 }
@@ -65,6 +84,12 @@ ul {
     display: none;
   }
   .nav-mobile {
+    display: block;
+  }
+  .footer-desktop {
+    display: none;
+  }
+  .footer-mobile {
     display: block;
   }
 }
